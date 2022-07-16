@@ -1,0 +1,38 @@
+#navbar{
+	flex-direction: column;
+	background-color: 
+
+}
+#navbar ul li{
+	flex-direction: row;
+}
+
+body{
+	background-color: red;
+}
+
+#home{
+	height:300px;
+	flex-direction: column;
+}
+.navbar ul li{
+	padding:5px;
+}
+#home p{
+	padding:0 10px;
+	display: block;
+	margin:auto;
+    flex-direction: column;
+}
+
+#home::before{
+	height: 400px;
+}
+#services{
+	flex-direction: column;
+
+}
+.secondary{
+	font-size:16px;
+	
+}

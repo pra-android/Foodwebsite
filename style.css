@@ -1,0 +1,137 @@
+*{
+	margin:0;
+	padding:0;
+}
+:root{
+	--navbar-height:59px;
+
+}
+html
+{
+	scroll-behavior: smooth;
+}
+#navbar{
+	display: flex;
+	position: relative;
+	top:0px;
+	align-items: center;
+
+
+}
+
+/*Logo and Image*/
+#logo{
+	margin:3px 5px;
+
+}
+.logo img{
+	height:59px;
+	margin:3px 6px;
+}
+/*navbar*/
+#navbar ul{
+	display: flex;
+
+
+}
+#navbar ul li
+{
+	
+	list-style: none;
+	font-size:1.3rem;
+	background-color: grayscale;
+
+}
+#navbar ul li a
+{
+display: block;
+padding:3px 20px;
+text-decoration: none;
+color:aqua;
+border-radius: 20px;
+}
+#navbar ul li a:hover
+{
+color:black;
+background-color: white;
+}
+#navbar::before{
+	content: "";
+	/*background-color: black;*/
+	position: absolute;
+	left:0px;
+	height:100%;
+	width:100%;
+	z-index: -1;
+	opacity: 0.1;
+}
+
+/*HOme*/
+#home{
+	display: flex;
+	flex-direction: column;
+	padding:3px 200px 200px ;
+	height:400px;
+	justify-content: center;
+	align-items: center;
+}
+#home::before{
+	content: "";
+	background: url("sp.jpg") no-repeat center center/cover;
+	position:absolute;
+	height: 100%;
+	width:100%;
+	z-index: -1;
+	opacity: 0.89;
+
+}
+#home h1{
+	color:black;
+	font-family: cursive;
+	text-align: center;
+}
+.primary{
+	padding:12px;
+	font-size:2.8em;
+}
+.btn{
+	padding:4px 12px;
+	border:2px solid white;
+	background-color: brown;
+	border-radius: 10px;
+	color:white;
+	margin:13px;
+	cursor: pointer;
+	font-size:1.5rem;
+}
+
+/*SErvices*/
+.secondary{
+	text-align: center;
+	font-size:2.8rem;
+}
+#services{
+	display: flex;
+	margin:34px;
+	cursor: pointer;
+}
+#services .box{
+	border:2px solid brown;
+	background-color:#f2f2f2;
+	margin:3px 6px;
+	padding:34px;
+	border-radius: 20px;
+
+}
+#services .box img{
+	height:160px;
+	margin:auto;
+	display: block;
+	
+}
+.text-center{
+	padding:10px 0px;
+	text-align: center;
+}
+
+
